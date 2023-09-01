@@ -1,7 +1,7 @@
 wide = float(input("กรุณาใส่ความกว้าง : "))
 hight = float(input("กรุณาใส่ความสูง : "))
 long = float(input("กรุณาใส่ความยาว : "))
-compile = ((wide + long) * hight) * 2 
+compile = ((wide + long) * hight) * 2 + (wide * long) * 2
 if compile%5 == 0 :
     compile0 = int(compile/5)
 else :
